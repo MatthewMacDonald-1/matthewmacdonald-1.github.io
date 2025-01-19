@@ -9,4 +9,6 @@ permalink: /
 
 [Games](/games)
 
+[Experiments](/experiments)
+
 # Projects
