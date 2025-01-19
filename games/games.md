@@ -1,14 +1,14 @@
 ---
 permalink: /games
-layout: default
+layout: page
 title: Games
 description: Unity WebGL game builds
 ---
 
 # Erupted
 
-[Play](./erupted/)
+[Play](/games/erupted)
 
 # Space Invaders
 
-[Play](./space-invaders/)
+[Play](/games/space-invaders)
