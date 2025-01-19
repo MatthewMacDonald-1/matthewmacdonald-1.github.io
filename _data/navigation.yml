@@ -1,0 +1,15 @@
+# Belongs at: /_data/navigation.yml
+
+- title: Home
+  url: /
+
+- title: Games
+  url: /games
+  sublinks:
+    - title: Erupted
+      url: /games/erupted
+    - title: Space Invaders
+      url: /games/space-invaders
+
+- title: Experiments
+  url: /experiments
