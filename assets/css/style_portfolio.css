@@ -29,6 +29,7 @@
     object-position: center;
     width: 100%;
     height: 100%;
+    user-select: none;
 }
 
 .portfolio-item .head .filter {
@@ -38,6 +39,7 @@
     right: 0;
     bottom: 0;
     background-color: #00000044;
+    user-select: none;
 }
 
 .portfolio-item .head .title {
@@ -64,6 +66,7 @@
     font-size: 28px;
     border-radius: 0 0 5px 5px;
     color: inherit;
+    user-select: none;
 }
 
 .portfolio-item .head .expand i {
@@ -95,6 +98,7 @@
     width: 100%;
     margin: 2rem auto 0;
     text-align: center;
+    user-select: none;
 }
 
 .portfolio-item .content .image-gallery img {
