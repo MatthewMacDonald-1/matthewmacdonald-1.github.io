@@ -1,0 +1,22 @@
+
+footer {
+    padding: 10px 0 60px;
+    font-family: 'Open Sans';
+    background-color: #ececec;
+    width: 100%;
+    display: block;
+}
+
+footer p {
+    text-align: center;
+    margin: 10px auto;
+    color: #000;
+}
+footer p a {
+    color: #000;
+}
+
+footer.pin_to_bottom {
+    position: absolute;
+    bottom: 0;
+}
