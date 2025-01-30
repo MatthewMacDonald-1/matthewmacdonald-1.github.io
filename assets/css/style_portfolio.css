@@ -1,0 +1,109 @@
+
+.portfolio-item {
+    display: block;
+    margin: 2rem 0;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.portfolio-item .head {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16/10;
+    position: relative;
+    background-color: #ececec;
+    border-radius: 7px;
+    overflow: hidden;
+    color: #ffffff;
+}
+
+.portfolio-item .head .image {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    user-select: none;
+}
+
+.portfolio-item .head .filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00000044;
+    user-select: none;
+}
+
+.portfolio-item .head .title {
+    width: 100%;
+    font-size: 180%;
+    font-weight: 700;
+    padding: 20px 10px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    color: inherit;
+}
+
+.portfolio-item .head .expand {
+    position: absolute;
+    border: none;
+    background: none;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    font-size: 28px;
+    border-radius: 0 0 5px 5px;
+    color: inherit;
+    user-select: none;
+}
+
+.portfolio-item .head .expand i {
+    transition: ease-in-out 0.25s;
+    transform: scaleY(1);
+}
+
+.portfolio-item .head .expand i[data-mode=active] {
+    transform: scaleY(-1);
+}
+
+.portfolio-item .content {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 7px;
+    margin-top: 1rem;
+
+    display: none;
+    overflow: hidden;
+    height: 0;
+}
+
+.portfolio-item[content-mode=active] .content {
+    height: unset;
+    display: block;
+}
+
+.portfolio-item .content .image-gallery {
+    width: 100%;
+    margin: 2rem auto 0;
+    text-align: center;
+    user-select: none;
+}
+
+.portfolio-item .content .image-gallery img {
+    height: 200px;
+    display: inline-block;
+    background-color: #dfdfdf;
+    margin: 3px;
+}

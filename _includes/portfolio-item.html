@@ -1,0 +1,24 @@
+
+<div class="portfolio-item">
+    <div class="head">
+        <img class="image" src="{{ include.content.cover_image.src }}" loading="lazy">
+        <div class="filter"></div>
+        <span class="title">{{ include.content.title }}</span>
+
+        <button class="expand" type="button"><i class="fas fa-chevron-down"></i></button>
+    </div>
+
+    <div class="content">
+        {% for entry in include.content.description %}
+            <p>{{ entry }}</p>
+        {% endfor %}
+
+        <div class="image-gallery">
+            {% for entry in include.content.images %}
+                <img src="{{ entry.src }}" alt="{{ entry.alt }}" title="{{ entry.title }}" loading="lazy">
+            {% endfor %}
+        </div>
+
+    </div>
+    
+</div>

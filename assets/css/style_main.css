@@ -1,0 +1,25 @@
+
+body {
+    margin: 0;
+    background-color: #fff;
+}
+
+hr {
+    margin: 2rem 0;
+    height: 2px;
+    background-color: #ececec;   
+}
+
+.badge_link {
+    display: block;
+    margin: 1rem auto;
+    width: fit-content;
+    height: 3rem;
+    padding: 0;
+}
+
+.badge_link img {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}

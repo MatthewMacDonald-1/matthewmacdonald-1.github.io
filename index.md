@@ -5,10 +5,21 @@
 layout: default
 title: Home
 permalink: /
+description: 
 ---
 
-[Games](/games)
+{{ page.description }}
 
-[Experiments](/experiments)
+<a href="https://github.com/MatthewMacDonald-1/" target="_blank">My GitHub <i class="fa-brands fa-github"></i></a>
 
-# Projects
+# Highlights
+
+{% include portfolio-item.html content=site.data.portfolio.corbett-photos %}
+
+<hr>
+
+{% include portfolio-item.html content=site.data.portfolio.ble-bike-erg %}
+
+<hr>
+
+{% include portfolio-item.html content=site.data.portfolio.dvc %}

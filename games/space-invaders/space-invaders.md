@@ -1,4 +1,5 @@
 ---
+permalink: /games/space-invaders
 layout: unity-webgl
 title: Space Invaders
 description: Space Invaders
