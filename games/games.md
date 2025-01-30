@@ -38,6 +38,11 @@ portfolio-item:
         
 ---
 
+# Games
+
+{{ page.description }}
+
+
 {% include portfolio-item.html content=page.portfolio-item.erupted %}
 
 <hr>

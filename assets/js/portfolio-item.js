@@ -13,6 +13,8 @@ for (let i = 0; i < buttons.length; i++) {
 
             buttons[i].parentElement.parentElement.setAttribute('content-mode', 'active');
         }
+
+        FooterCheck();
         
     });
 }

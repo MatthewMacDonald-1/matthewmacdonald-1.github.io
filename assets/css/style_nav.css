@@ -1,0 +1,113 @@
+
+:root {
+    --nav-banner-height: 5em;
+}
+
+#content {
+    margin-top: var(--nav-banner-height);
+}
+
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    overflow: hidden;
+    height: var(--nav-banner-height);
+    transition: .5s ease-in-out;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#navbar .background {
+    background-color: #1599574F; 
+    background-image: linear-gradient(120deg, #1557994F, #1599574F);
+    /* opacity: 80%; */
+    backdrop-filter: blur(20px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#navbar[state=open] {
+    height: 100vh;
+}
+
+#navbar a {
+    color: inherit;
+}
+
+#navbar .banner {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.75em 1em;
+    height: var(--nav-banner-height);
+    background-color: #159957; 
+    background-image: linear-gradient(120deg, #155799, #159957);
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#navbar .banner .logo {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 1em;
+    width: fit-content;
+    transform: translate(0, -50%);
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#navbar .banner .menu-button {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 1em;
+    transform: translate(0, -50%);
+}
+
+#navbar #link_container {
+    display: block;
+
+    position: absolute;
+    top: calc(var(--nav-banner-height) + 1em);
+    left: 0.75em;
+    right: 0.75em;
+    bottom: 1em;
+}
+
+#navbar #link_container a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 0.25em auto;
+    box-sizing: border-box;
+    padding: 0.25em 2em;
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#navbar #link_container a:hover {
+    cursor: pointer;
+    background-color: #1599574F;
+}
+
+#navbar #link_container a.current {
+    color: #155799 !important;
+}
+
+#navbar #link_container .sublink a {
+    width: 75%;
+    font-size: 19px;
+}
