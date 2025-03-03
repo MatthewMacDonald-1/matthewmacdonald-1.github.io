@@ -71,7 +71,7 @@ To set the title for the page we need to add an `<title>` tag as a child of the 
 
 {% highlight html %}
 <body>
-    <img title="Dream House Render" alt="Dream House Render" src="https://www.matthew-macdonald.com/assets/images/portfolio/DVC/Final Render.PNG" />
+    <img title="Dream House Render" alt="Dream House Render" src="https://www.matthew-macdonald.com/assets/images/portfolio/DVC/Final Render.PNG" width="300" />
 </body>
 {% endhighlight %}
 
