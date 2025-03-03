@@ -50,7 +50,6 @@ To set the title for the page we need to add an `<title>` tag as a child of the 
 {% endhighlight %}
 
 <iframe>
-<!DOCTYPE html>
 <html>
     <head>
         <!-- Header -->
