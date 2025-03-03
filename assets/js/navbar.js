@@ -17,7 +17,23 @@ menuButton.addEventListener('click', () => {
 });
 
 // Expandable links
+const expandable_sub_links = document.querySelectorAll("#navbar #link_container .expandable_nav_link");
 
+for (let element in expandable_sub_links) {
+    const button = element.children[1]; // Arrow button
+    const subLinkContainer = element.children[2];
+
+    button.addEventListener('click', () => {
+        if (subLinkContainer.getAttribute('open') === 'true') {
+            subLinkContainer.removeAttribute('open');
+            button.removeAttribute('open');
+        }
+        else {
+            subLinkContainer.setAttribute('open', 'true');
+            button.setAttribute('open', 'true');
+        }
+    });
+}
 
 function toggleClassName(element,class_name,action) {
     var classes = element.classList.value;

@@ -132,13 +132,32 @@
     background-color: #1599574F;
 }
 
+#navbar #link_container .expandable_nav_link button i {
+    transition: .25s ease-in-out;
+}
+
+#navbar #link_container .expandable_nav_link button[open=true] i {
+    transform: scaleY(-1);
+}
+
 #navbar #link_container a.current {
     color: #155799 !important;
 }
 
-#navbar #link_container .sublink a {
+#navbar #link_container .expandable_nav_link .sublink {
+    display: block;
+    height: 0;
+    transition: .25s ease-in-out;
+}
+
+#navbar #link_container .expandable_nav_link .sublink[open=true] {
+    height: unset;
+}
+
+#navbar #link_container .expandable_nav_link .sublink a {
     width: 75%;
     font-size: 19px;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
+    margin: 0.25em auto;
+    padding: 0.25em 2em;
 }
