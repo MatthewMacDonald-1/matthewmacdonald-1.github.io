@@ -49,7 +49,7 @@ To set the title for the page we need to add an `<title>` tag as a child of the 
 </body>
 {% endhighlight %}
 
-<iframe src="./examples/header.html"></iframe>
+<iframe src="{{ '/tutorials/web/examples/header.html?v=' | append: site.github.build_revision | relative_url }}"></iframe>
 
 ## Paragraph
 
@@ -61,7 +61,7 @@ To set the title for the page we need to add an `<title>` tag as a child of the 
 </body>
 {% endhighlight %}
 
-<iframe src="./examples/paragraph.html"></iframe>
+<iframe src="{{ '/tutorials/web/examples/paragraph.html?v=' | append: site.github.build_revision | relative_url }}"></iframe>
 
 ## Image
 
