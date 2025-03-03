@@ -1,5 +1,5 @@
 ---
-permalink: /tutorials/web/html
+permalink: /tutorials/web/html-basics
 layout: page
 title: HTML Basics
 description: HTML basics.
