@@ -43,9 +43,7 @@
             {% assign sublinks = entry.sublinks %}
             {% if sublinks %}
             <div class="expandable_nav_link">
-                <a{{ current }} href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
-
-                <button type="button"><i class="fas fa-chevron-down"></i></button>
+                <a{{ current }} href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a><button type="button"><i class="fas fa-chevron-down"></i></button>
 
                 <div class="sublink">
                     {% for sublink in sublinks %}

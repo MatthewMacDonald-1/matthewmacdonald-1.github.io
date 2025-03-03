@@ -107,6 +107,24 @@
     width: calc(100% - 40px);
     padding-left: 40px;
     padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    display: inline-block;
+}
+
+#navbar #link_container .expandable_nav_link button {
+    width: 40px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.25em 0;
+    box-sizing: border-box;
+    padding: 0.25em 2em;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    background: none;
+    border: none;
 }
 
 #navbar #link_container a.current {
