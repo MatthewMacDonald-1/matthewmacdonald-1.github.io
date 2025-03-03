@@ -49,6 +49,8 @@ To set the title for the page we need to add an `<title>` tag as a child of the 
 </body>
 {% endhighlight %}
 
+[Header Example](./examples/header.html)
+
 <iframe src="./examples/header.html"></iframe>
 
 ## Paragraph
@@ -61,6 +63,18 @@ To set the title for the page we need to add an `<title>` tag as a child of the 
 </body>
 {% endhighlight %}
 
+[Paragraph Example](./examples/paragraph.html)
+
 <iframe src="./examples/paragraph.html"></iframe>
 
+## Image
 
+{% highlight html %}
+<body>
+    <img title="Dream House Render" alt="Dream House Render" src="https://www.matthew-macdonald.com/assets/images/portfolio/DVC/Final Render.PNG" />
+</body>
+{% endhighlight %}
+
+[Image Example](./examples/image.html)
+
+<iframe src="./examples/image.html"></iframe>
