@@ -24,10 +24,12 @@ hr {
     padding: 0;
 }
 
-iframe.example {
+iframe.code_example {
     margin: 1em 40px;
     display: block;
     padding: 0;
     box-sizing: border-box;
     width: calc(100% - 40px);
+    border-radius: 0.3rem;
+    aspect-ratio: 4 / 3;
 }
