@@ -16,6 +16,9 @@ menuButton.addEventListener('click', () => {
 
 });
 
+// Expandable links
+
+
 function toggleClassName(element,class_name,action) {
     var classes = element.classList.value;
     var classes_list = classes.split(" ");
