@@ -23,5 +23,48 @@ Below is an example of what the base of a document typically looks like. The bod
 </html>
 {% endhighlight %}
 
+# Head
+
+## Set the page title
+
+To set the title for the page we need to add an `<title>` tag as a child of the `<head>` tag.
+
+{% highlight html %}
+<head>
+    <!-- Header -->
+
+    <title>Cool Page</title>
+</head>
+{% endhighlight %}
+
+# Body
+
+## Header
+
+{% highlight html %}
+<body>
+    <h1>Header 1</h1>
+    <h2>Header 2</h2>
+    <h3>Header 3</h3>
+</body>
+{% endhighlight %}
+
+<iframe>
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Header -->
+    </head>
+    <body>
+        <h1>Header 1</h1>
+        <h2>Header 2</h2>
+        <h3>Header 3</h3>
+    </body>
+</html>
+</iframe>
+
+## Paragraph
+
+
 
 
