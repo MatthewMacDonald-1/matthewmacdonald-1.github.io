@@ -71,4 +71,4 @@ To set the title for the page we need to add an `<title>` tag as a child of the 
 </body>
 {% endhighlight %}
 
-<iframe src="{{ './examples/image.html?v=' | append: site.github.build_revision | relative_url }}"></iframe>
+<iframe src="{{ '/tutorials/web/examples/image.html?v=' | append: site.github.build_revision | relative_url }}"></iframe>
