@@ -23,3 +23,11 @@ hr {
     margin: 0;
     padding: 0;
 }
+
+iframe.example {
+    margin: 1em 40px;
+    display: block;
+    padding: 0;
+    box-sizing: border-box;
+    width: calc(100% - 40px);
+}
