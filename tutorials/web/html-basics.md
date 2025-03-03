@@ -49,11 +49,18 @@ To set the title for the page we need to add an `<title>` tag as a child of the 
 </body>
 {% endhighlight %}
 
-<iframe src="/tutorials/web/examples/header.html"></iframe>
 <iframe src="./examples/header.html"></iframe>
 
 ## Paragraph
 
+{% highlight html %}
+<body>
+    <p>This is the first paragraph.</p>
+    <p>This is the second paragraph.</p>
+    <p>This is the third paragraph.</p>
+</body>
+{% endhighlight %}
 
+<iframe src="./examples/paragraph.html"></iframe>
 
 
