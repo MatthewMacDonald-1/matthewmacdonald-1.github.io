@@ -20,8 +20,8 @@ menuButton.addEventListener('click', () => {
 const expandable_sub_links = document.querySelectorAll("#navbar #link_container .expandable_nav_link");
 
 for (let element in expandable_sub_links) {
-    const button = element.children[1]; // Arrow button
-    const subLinkContainer = element.children[2];
+    const button = element.childNodes[1]; // Arrow button
+    const subLinkContainer = element.childNodes[2];
 
     button.addEventListener('click', () => {
         if (subLinkContainer.getAttribute('open') === 'true') {
