@@ -25,7 +25,8 @@ for (let i = 0; i < expandable_sub_links.length; i++) {
     const button = expandable_sub_links[i].childNodes[1]; // Arrow button
     const subLinkContainer = expandable_sub_links[i].childNodes[2];
 
-    console.log(button);
+    console.log(expandable_sub_links[i].childNodes.length);
+    console.log(button, subLinkContainer);
 
     button.addEventListener('click', () => {
         if (subLinkContainer.getAttribute('open') === 'true') {
