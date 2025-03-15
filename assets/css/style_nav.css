@@ -141,7 +141,8 @@
 }
 
 #navbar #link_container a.current {
-    color: #155799 !important;
+    /* color: #155799 !important; */
+    text-decoration: underline !important;
 }
 
 #navbar #link_container .expandable_nav_link .sublink {

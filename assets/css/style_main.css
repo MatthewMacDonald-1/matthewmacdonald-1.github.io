@@ -29,7 +29,7 @@ iframe.code_example {
     display: block;
     padding: 0;
     box-sizing: border-box;
-    width: calc(100% - 40px);
+    width: calc(100% - 80px);
     border-radius: 0.3rem;
     aspect-ratio: 4 / 3;
 }
