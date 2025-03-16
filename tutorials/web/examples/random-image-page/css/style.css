@@ -1,0 +1,17 @@
+
+/* * is a selector for all elements */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#random_image {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    object-fit: cover; /* Set the image to cover its element dimensions instead of stretching. */
+}
