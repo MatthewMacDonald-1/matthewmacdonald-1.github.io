@@ -7,9 +7,9 @@
   url: /games
   sublinks:
     - title: Erupted
-      url: /games/erupted
+      url: /games/erupted/
     - title: Space Invaders
-      url: /games/space-invaders
+      url: /games/space-invaders/
 
 - title: Experiments
   url: /experiments
