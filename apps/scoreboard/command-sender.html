@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard Command Sender</title>
+</head>
+<body>
+    
+    <input type="text" placeholder="Address" id="address">
+    <input type="number" placeholder="Port" id="port" value="8080">
+
+    <br>
+
+    <button id="horn_500ms">Horn 500 ms</button>
+
+    <script>
+        const searchParams = new URLSearchParams(location.search);
+
+        const addressInput = document.getElementById("address");
+        const portInput = document.getElementById("port");
+
+        if (searchParams.has("address")) {
+            addressInput.value = searchParams.get("address");
+        }
+        if (searchParams.has("port")) {
+            portInput.value = searchParams.get("port");
+        }
+
+        document.getElementById("horn_500ms").addEventListener('click', (e) => {
+            e.preventDefault();
+
+            fetch(`http://${addressInput.value}:${portInput.value}/api/horn_500ms`)
+        });
+    </script>
+</body>
+</html>
