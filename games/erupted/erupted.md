@@ -1,5 +1,5 @@
 ---
-permalink: /games/erupted
+permalink: /games/erupted/
 layout: unity-webgl
 title: Erupted
 description: Erupted - COSC360
