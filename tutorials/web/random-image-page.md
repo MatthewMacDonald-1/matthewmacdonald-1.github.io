@@ -34,6 +34,18 @@ Now we can download the images and extract the zip into a folder called images i
 
 ## Step 2 - HTML
 
+{% highlight html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    
+</body>
+</html>
+{% endhighlight %}
+
 ---
 
 ## Step 3 - JS
